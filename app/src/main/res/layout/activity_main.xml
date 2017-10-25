@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_sina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新浪微博第三方登陆"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_sina_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消新浪微博第三方登陆"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:hint="请输入验证号码"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
